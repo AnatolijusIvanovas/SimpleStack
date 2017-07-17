@@ -8,9 +8,9 @@ public class SimpleStack {
     int top;
 
     public SimpleStack(int stackSize) {
-        this.stackSize = 0;
-        this.stackArray = new int[0];
-        this.top = 0;
+        this.stackSize = stackSize;
+        this.stackArray = new int[stackSize];
+        this.top = -1;
     }
 
 }
