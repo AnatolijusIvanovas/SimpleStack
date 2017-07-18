@@ -20,4 +20,8 @@ public class SimpleStack {
     public void removeElement() {
         top--;
     }
+
+    public int readElement() {
+        return 0;
+    }
 }

@@ -30,4 +30,9 @@ public class SimpleStackTest {
         assertEquals(-1, stack.top);
     }
 
+    @Test public void canReadTopElement() {
+        stack.addElement(12345);
+        assertEquals(12345, stack.readElement());
+    }
+
 }
