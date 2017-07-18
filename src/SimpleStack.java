@@ -18,6 +18,6 @@ public class SimpleStack {
     }
 
     public void removeElement() {
-
+        top--;
     }
 }
