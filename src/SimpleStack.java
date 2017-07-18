@@ -22,6 +22,6 @@ public class SimpleStack {
     }
 
     public int readElement() {
-        return 0;
+        return stackArray[top];
     }
 }
