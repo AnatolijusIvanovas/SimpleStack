@@ -30,6 +30,6 @@ public class SimpleStack {
     }
 
     public boolean isFull() {
-        return false;
+        return (top == stackSize - 1);
     }
 }
