@@ -19,4 +19,9 @@ public class SimpleStackTest {
         assertEquals(-1, stack.top);
     }
 
+    @Test public void canAddElementToStack() {
+        stack.addElement(123);
+        assertEquals(123, stack.stackArray[stack.top]);
+    }
+
 }

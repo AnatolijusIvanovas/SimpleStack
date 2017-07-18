@@ -13,4 +13,7 @@ public class SimpleStack {
         this.top = -1;
     }
 
+    public void addElement(int element) {
+
+    }
 }
