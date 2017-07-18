@@ -24,4 +24,10 @@ public class SimpleStackTest {
         assertEquals(123, stack.stackArray[stack.top]);
     }
 
+    @Test public void canRemoveElement() {
+        stack.addElement(123);
+        stack.removeElement();
+        assertEquals(-1, stack.top);
+    }
+
 }

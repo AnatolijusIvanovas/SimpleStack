@@ -16,4 +16,8 @@ public class SimpleStack {
     public void addElement(int element) {
         stackArray[++top] = element;
     }
+
+    public void removeElement() {
+
+    }
 }
