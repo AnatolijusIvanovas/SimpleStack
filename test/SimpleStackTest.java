@@ -41,4 +41,12 @@ public class SimpleStackTest {
         assertEquals(false, stack.isEmpty());
     }
 
+    @Test public void canCheckIfStackIsFull() {
+        assertEquals(false, stack.isFull());
+        for (int i = 0; i < 25; i++) {
+            stack.addElement(i);
+        }
+        assertEquals(true, stack.isFull());
+    }
+
 }
