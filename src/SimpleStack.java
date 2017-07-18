@@ -24,4 +24,8 @@ public class SimpleStack {
     public int readElement() {
         return stackArray[top];
     }
+
+    public boolean isEmpty() {
+        return false;
+    }
 }

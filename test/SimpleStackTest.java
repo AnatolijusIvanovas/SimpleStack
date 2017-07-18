@@ -35,4 +35,8 @@ public class SimpleStackTest {
         assertEquals(12345, stack.readElement());
     }
 
+    @Test public void canCheckIfStackIsEmpty() {
+        assertEquals(true, stack.isEmpty());
+    }
+
 }
