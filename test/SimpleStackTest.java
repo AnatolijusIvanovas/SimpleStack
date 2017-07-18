@@ -37,6 +37,8 @@ public class SimpleStackTest {
 
     @Test public void canCheckIfStackIsEmpty() {
         assertEquals(true, stack.isEmpty());
+        stack.addElement(42);
+        assertEquals(false, stack.isEmpty());
     }
 
 }
