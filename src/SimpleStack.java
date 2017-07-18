@@ -26,6 +26,6 @@ public class SimpleStack {
     }
 
     public boolean isEmpty() {
-        return false;
+        return (top == -1);
     }
 }
